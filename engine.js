@@ -14,7 +14,7 @@ function setup() {
   camera_offset = new p5.Vector(0, 0);
   camera_velocity = new p5.Vector(0, 0);
 
-  let canvas = createCanvas(800, 400);
+  let canvas = createCanvas(1600, 800);
   canvas.parent("container");
 
   if (window.p3_setup) {
@@ -87,8 +87,8 @@ function draw() {
     window.p3_drawBefore();
   }
 
-  for (let y = 0; y < tile_rows; y++) {
-    for (let x = 0; x < tile_columns; x++) {
+  for (let y = -1; y < tile_rows + 1; y++) {
+    for (let x = -1; x < tile_columns + 1; x++) {
       drawTile([x + world_offset.x, y + world_offset.y], [
         camera_offset.x,
         camera_offset.y
