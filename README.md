@@ -1,4 +1,4 @@
-#Endless Pixel World - Maxwell Mollison
+# Endless Pixel World - Maxwell Mollison
 
 Description: This endless tile generation program generates a grassy world with rivers and lakes running throughout. The grass receeds back on any side that it is connected to water on, which allowed for there to not be cutoffs in the water stream if water tiles are diagonal to each other. Though it wasn't my intial intention, the generated product looks like an infinite mini-golf course, which is interesting.
 
